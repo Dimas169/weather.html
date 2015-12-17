@@ -1,35 +1,60 @@
 body {
-	background: url(D:\Курси soft\weather\image\bg.png);
-	background-repeat: no-repeat;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    background-image: url(../image/bg.png);
 }
-
----------------------------------------------------
 
 #header {
-    position: relative;
-    padding: 0;
-    margin: 0;
+    margin: 0 28% 0 28%;
+    width: 800px;
+    height: 252px;
+    background-image: url(../image/logo.png);
 }
 
-.logo {
-	position: fixed;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-	
+.search {
+    width: 235px;
+    margin: 0 0 300px 540px;
+    position: absolute;
+    bottom: 0;
 }
 
-#block_search {
-	padding: 17px 0 0 20px;
+ul {
+    width: 235px;
+    margin: 200px auto;
+    padding: 4px; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:28px;
+   }
+   
+ul li {
+    display: inline; 
+    margin-right: 5px; 
+    padding: 1px; 
+}
+
+table {
+    margin: 0 20% 0 20%;
+}
+
+table tr td{
+    border:3px solid;
+    border-color: #ffffff;
 }
 
 div {
-	display: block;
+    display: block;
 }
 
----------------------------------------------------
+.w1 {
+    width:1000px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:20px;
+}
+
+tr {
+    
+    height: 50px;
+    width: 150px;
+}
