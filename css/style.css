@@ -1,0 +1,62 @@
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    background-image: url(../image/bg.png);
+    width:100%;
+}
+
+#header {
+    margin: 0 auto;
+    width: 800px;
+    height: 252px;
+    background-image: url(../image/logo.png);
+}
+
+.search {
+    width: 240px;
+    height:25px;
+    top: 210px;
+    left: 825px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+#location {
+    width: 250px;
+    height: 20px;
+    margin: 202px 260px 260px 260px;
+    position: absolute;
+    border: 2px solid #666;
+}
+
+#inputCityName {
+    border-radius:8px;
+}
+#inputCityName, #btnGetWeather {
+    vertical-align:middle;
+}
+
+#weatherTable {
+    position: absolute;
+    width: 900px;
+    top: 260px;
+    left: 250px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.output {
+    text-align:center;
+    vertical-align:middle;
+}
+
+
+#btnGetWeather {
+    border-radius:5px;
+    background: rgba(21, 78, 234, 0.85);
+    color:white;
+    width:60px;
+    height:25px;
+}

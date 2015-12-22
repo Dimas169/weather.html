@@ -3,32 +3,34 @@
     <head>
 	    <meta charset="UTF-8">
 	    <title>Weather</title>
-	    <link rel="icon" href="../weather/image/Weather-Flow-Logo.jpg" type="image/jpg">
-	    <link rel="stylesheet" href="../css/weather.css"  type="text/css">
+	    <link rel="icon" href="image/Weather-Flow-Logo.jpg" type="image/jpg">
+	    <link rel="stylesheet" href="css/style.css" type="text/css">
 	</head>
-    <body>
-    	<div id="header">
-    		<div class="logo">
-    		    <img src="D:/Курси soft/weather/image/logo.png" alt="погода">
-    		    <div id="manu">
-    		    	<ul>
-    		    		<li class="week">
-    		    		    <a hreaf="week.html">Тиждень</a>
-    		    		</li>
-    		    		<li class="month">
-    		    			<a hreaf="month.html">Місяць</a>
-    		    		</li>
-    		    	</ul>
-    			   
-    			    <div class="month"></div>
-    		</div>
-    		</div>    
+    <body >
+        <div id="header">
+            <div id="location">
+                <p><span id="city"></span></p>
+            </div>
+            <div class="search"> 
+                <form id="formCity">
+                    <input id="inputCityName" name="cityName" type="text"/>
+                    <button id="btnGetWeather" type="button">Пошук</button>
+                </form>
+            </div>
         </div>
-    		<form id="block_search"></div>
-    		
-    		<div class="language"></div>
-    	</div>
-    	<div>
-    	</div>
+        <article>
+            <table id="weatherTable">
+                <tr>
+                    <th class="output">Коли</th>
+                    <th class="output">Небо</th>
+                    <th class="output">Температура</th>
+                    <th class="output">Стан</th>
+                    <th class="output">Вологість</th>
+                </tr>
+        </article>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../js/moment-with-locales.js"></script>
+        <script type="text/javascript" src="../js/weatherByCity.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
